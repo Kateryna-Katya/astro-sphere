@@ -1145,3 +1145,33 @@ img { max-width: 100%; display: block; }
 .pages p { margin-bottom: 15px; color: var(--color-text-dim); }
 .pages ul { margin-bottom: 20px; padding-left: 20px; list-style: disc; color: var(--color-text-dim); }
 .pages li { margin-bottom: 10px; }
+.legal-page {
+  padding: 160px 0 100px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.legal-page h1 {
+  font-family: var(--font-accent);
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.legal-page h2 {
+  font-family: var(--font-accent);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.legal-page p, .legal-page li {
+  color: var(--color-text-dim);
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.legal-page ul {
+  padding-left: 20px;
+  list-style: square;
+}
